@@ -1,0 +1,387 @@
+body{
+    margin: 0;
+    padding: 0; 
+}
+.clear{
+    overflow: hidden;
+}
+.top-nav{
+    background-color:#334960;
+    height: 115px;
+    
+}
+.container{
+    width:1320px;
+    margin: auto;
+}
+.contact-icon{
+    float: left;
+    width: 1044px;
+    border-bottom: 1px solid #FCFCFC;
+}
+.contact-icon a{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    font-size: 22px;
+    padding:15px 15px ;
+}
+.social-icon{
+    float: right;
+    width: 276px;
+    border-bottom: 1px solid #FCFCFC;
+}
+.social-icon a{
+    display: inline-block;
+    color: white;
+    font-size: 22px;
+    padding: 15px 15px;
+    text-decoration: none;
+}
+.header{
+    color: lightcyan;
+    height: 100px;
+    background-color: #334960;
+}
+.logo{
+    float: left;
+}
+.logo img{
+    height: 70px;
+    width: 220px;
+    margin:  10px 0px;
+}
+.navber{
+    float: right;
+}
+.navber a{
+    text-decoration: none;
+    color:#FFFFFF;
+    font-size: 20px;
+    float: left;
+    margin:10px;
+    padding: 20px;
+}
+.btn-drop{
+    background-color: inherit;
+    color: gray;
+    border: none;
+    font-size: 20px;
+    margin:10px;
+    padding: 3px;
+}
+.baner-section{
+    background-image: url("../images/baner-1.jpg");
+    background-repeat:no-repeat;
+    background-size: cover;
+    text-align: center; 
+    width: 100%;
+    height: 650px;
+}
+.baner{
+    padding-top: 100px;
+    color:#FFFFFF;
+}
+.baner h1{
+    font-size: 70px;
+    font-weight: 900;
+}
+.baner h2{
+    font-size: 36px;
+    font-weight: 900;
+}
+.baner-btn{
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    padding: 10px;
+    background-color: white;
+    color: black;
+    border-radius: 14px
+}
+.booking-heading{
+    position: relative;
+    top: 90px;
+    left: 20px;
+    font-size: 50px;
+    font-weight:400;
+}
+.tour-item{
+    width: 60%;
+    float: left;
+    margin-top: 100px;
+}
+
+.tour{
+    width: 260px;
+    float: left;
+    margin: 20px 2px;
+    
+}
+.tour h2{
+    display: inline-block;
+}
+.tour i{
+    font-size: 40px;
+    color: white;
+    background-color: blue;
+    border-radius: 50%;
+    padding: 5px;
+    display: inline;
+}
+.tour h4{
+    display: inline-block;
+}
+.tour-booking{
+    width: 28%;
+    float: right;
+    text-align: center;
+    background-color: #47A0FF;
+    border-radius: 20px;
+    padding:20px 10px ;
+}
+.input-form{
+    width: 290px;
+    padding: 15px;
+    cursor:pointer;
+    margin: 10px 0px;
+    border-radius: 5px;
+}
+.input-form-search{
+    width: 325px;
+    padding: 15px;
+    margin: 10px 0px;
+    border-radius: 5px;
+}
+.input-form-submit{
+    width: 325px;
+    padding: 15px;
+    margin: 10px 0px;
+    border-radius: 5px;
+}
+.services-section{
+    background-image: url(../images/back-img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 650px;
+}
+.services-contant{
+    text-align: center;
+}
+.services-contant h1{
+    font-size: 50px;
+    font-weight: 400;
+    font-style: italic;
+}
+.services-contant h3{
+    font-size: 35px;
+    font-weight: 400;
+    font-style: italic;
+
+}
+.about-us{
+    width: 300px;
+    float: left;
+    box-shadow: 5px 5px 10px gray;
+    height: 450px;
+    margin: 10px;
+    padding: 5px;
+}
+.photo img{
+    width:100%;
+    height: 200px;
+}
+.about-btn{
+    text-decoration: none;
+    font-size: 20px;
+    background-color: rgb(255, 44, 7);
+    color:lightcyan;
+    border-radius: 5px;
+    display:inline-block;
+    padding:10px 30px;
+    margin: 30px 20px;
+}
+.photo-contend h3{
+    float: left;
+    color: blue;
+}
+.photo-contend h5{
+    float: right;
+}
+.services1-contant h1{
+    font-size: 50px;
+    font-weight: 400;
+}
+.services1-contant h3{
+    font-size: 35px;
+    font-weight: 400;
+
+}
+.photo1 img{
+    width: 100%;
+    height: 300px;
+}
+.services-us{
+    width: 410px;
+    float: left;
+    box-shadow: 5px 5px 10px gray;
+    height:550px;
+    margin: 10px;
+    padding: 5px;
+}
+.more-btn{
+    display: flex;
+}
+.more-btn h3,h5{
+    margin: 10px;
+}
+.destination-cuntrey{
+    height: 450px;
+    background:lightcyan;
+    margin: 60px 0px;
+}
+.destination-contant{
+    border-bottom: 1px solid black;
+}
+.instructor{
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 4px;
+    margin: 20px;
+}
+
+.tachers{
+    width: 22%;
+    float: left;
+    margin: 19px;
+}
+.tachers img{
+    width: 100%;
+    height: 250px;
+
+}
+.tacher-info{
+    text-align: center;
+    position: relative;
+    bottom: 80px;
+    color: white;
+}
+.destination-contant h1{
+    text-align: center;
+    font-size: 50px;
+    font-weight: 400;
+    letter-spacing: 5px;
+}
+.destination-contant h3{
+    text-align: center;
+    font-size: 25px;
+    font-weight: 400;
+    letter-spacing: 5px;
+}
+.tour-type-section{
+    background-image: url(../images/himalay-bac.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+}
+.tour-type-contant{
+    text-align: center;
+    color:white;
+}
+.tour-type-item{
+    width: 750px;
+    margin: auto;
+}
+.tour-types img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+.tour-types{
+    border: 5px solid gray;
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    margin: 10px;
+    float: left;
+    text-align: center;
+
+}
+.review-container{
+    width: 50%;
+    float: left;
+}
+.review-contant{
+    font-size:25px;
+    overflow: hidden;
+    margin: 30px 0px;
+
+}
+.review-contant h1{
+    float: left;
+}
+.review-contant h2{
+    float: right;
+}
+.review-btn{
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    padding: 10px;
+    background-color:blue;
+    color:white;
+    border-radius: 14px
+}
+.latest-post img{
+    width: 500px;
+    height: 400px;
+}
+.post-contant{
+    height: 200px;
+    width: 400px;
+    text-align: center;
+    position: relative;
+    bottom: 150px;
+    box-shadow: 5px 5px 10px;
+    margin-left: 50px;
+    background-color: azure;
+}
+.user-container{
+    width: 50%;
+    float: right;
+}
+.user-1 img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+
+
+}
+.user-1 h1{
+    display: inline-block;
+}
+.last-baner{
+    text-align: center;
+    background-image: url(../images/last-baner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    padding-top: 100px;
+    color:black;
+}
+.last-baner h1{
+    font-size: 50px;
+    font-style: italic;
+}
+.footer-section{
+    background-color: #334960;
+    color: white;
+    height: 300px;
+    margin: auto;
+}
+.footer-contant{
+    width: 200px;
+    float: left;
+    margin:20px;
+}
+
